@@ -26,6 +26,7 @@ public class NextBaseCRM extends TestBase {
 
         // Find Message Tab in the middle top menu and click it
         WebElement message = driver.findElement(By.xpath("//span[@id='feed-add-post-form-tab-message']/span"));
+
         message.click();
 
         // Click send button leaving the message field empty
