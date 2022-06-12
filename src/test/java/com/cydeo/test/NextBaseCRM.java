@@ -12,6 +12,7 @@ public class NextBaseCRM extends TestBase {
     public void LogIn() {
 
         driver.get("https://login2.nextbasecrm.com/");
+        //helpdesk40
 
         //Log in with the right credentials
         WebElement logIn = driver.findElement(By.xpath("//input[@name='USER_LOGIN']"));
