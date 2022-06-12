@@ -11,6 +11,7 @@ import static org.testng.Assert.*;
 public class NextBaseCRM2 extends TestBase {
     @Test
     public void loginTest(){
+        //Update
         //1.Go to home page
         driver.get("https://login2.nextbasecrm.com/");
         //2.Log in with the right credentials
